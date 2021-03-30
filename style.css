@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c4c4c4;
+    font-family: sans-serif;
+}
+
+form {
+    width: 45vw;
+    height: 30vh;
+    background-color: #09e59b;
+    border-radius: 5px;
+}
+
+label {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 80%;
+    height: 15%;
+}
+
+#login {
+    width: 22%;
+    height: 13%;
+    margin: 3rem auto 0 auto;
+    background-color: grey;
+    color: white;
+}
