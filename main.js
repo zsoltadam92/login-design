@@ -1,7 +1,6 @@
 const login = document.querySelector("#login");
 
-function myFunction() {
-    alert(document.getElementById('userName').value);
+login.onclick = function myFunction() {
+    alert(document.querySelector("#userName").value);
 }
-  
-login.addEventListener('click', myFunction);
+
